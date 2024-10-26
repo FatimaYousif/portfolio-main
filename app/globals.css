@@ -1,0 +1,73 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+* {
+  @apply transition-colors duration-200 text-lightText dark:text-darkText
+}
+
+h1,
+h2,
+h3 {
+  @apply font-gilroy
+}
+
+h1 {
+  @apply text-[42px] md:text-[56px]
+}
+
+body {
+  @apply font-openSans bg-lightBackground dark:bg-darkBackground container flex flex-col
+}
+
+.notification-mark {
+  position: relative;
+  background: #00BB61;
+  border-radius: 50%;
+  height: 10px;
+  width: 10px;
+}
+
+.notification-mark span {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: inherit;
+  border-radius: inherit;
+  opacity: .6;
+  animation: pulseAnimate 3s ease-out infinite;
+}
+
+@keyframes pulseAnimate {
+  100% {
+    opacity: 0;
+    transform: scale(3);
+  }
+}
+
+section {
+  @apply mb-24 md:mb-32
+}
+
+
+button {
+  @apply font-bold py-4 px-14 rounded-[5px] shadow-lightButton dark:shadow-darkButton transition duration-300
+}
+
+
+button.primary {
+  @apply bg-lightPrimary-700 dark:bg-darkPrimary-900 dark:text-darkBackground text-lightBackground
+}
+
+button.primary:hover {
+  @apply bg-lightPrimary-900 dark:bg-darkPrimary-500 dark:shadow-hoverDarkButton shadow-hoverLightButton
+}
+
+
+button.secondary {
+  @apply bg-lightSecondary-700 dark:bg-darkSecondary-900 dark:text-darkText text-lightText
+}
+
+button.secondary:hover {
+  @apply bg-lightSecondary-900 dark:bg-darkSecondary-700 dark:shadow-hoverDarkButton shadow-hoverLightButton
+}
