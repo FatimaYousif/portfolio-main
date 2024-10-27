@@ -8,23 +8,10 @@ function Projects() {
       <RevealContent>
         <>
           <SectionBadge sectionName={""} />
-          <h2 className="text-3xl font-extrabold text-center mb-6 md:mb-20">My Projects</h2>
+          <h2 className="text-3xl font-extrabold text-center mb-6 md:mb-10">My Projects</h2>
         </>
       </RevealContent>
       <div className="flex flex-col gap-12 lg:gap-20">
-
-
-      <ProjectCard
-          name={"ROS2 Collision Avoidance Using Cross and Direct Echo of Bosch Ultrasonic Sensor Systems"}
-          description={"Testing and comparing of two ultrasonic sensors i.e. Bosch and Valeo for the obstacle avoidance task to include the safety braking feature (setting thresholds to slow down or stop the robot for collision avoidance with ROS2) which involved performing multiple field tests of different high grass."}
-          // technologies={["NextJS", "React.JS", "Tailwind CSS", "API", "Responsive", "Github Actions"]}
-          technologies={[]}
-          
-          imageSrc={"/images/paltech.jpg"}
-          imagePosition={"right"}
-          githubLink={"https://github.com/FatimaPaltech/Bosch_uss_ws"}
-          // directLink={"https://la-data-verte.vercel.app/"}
-        />
 
         <ProjectCard
           name={"Frontier Based Exploration Using Kobuki Turtlebot"}
@@ -52,7 +39,7 @@ function Projects() {
         />
         
         <ProjectCard
-          name={"Pose Based SLAM using the Extended Kalman Filter on a Kobuki Turtlebot,"}
+          name={"Pose Based SLAM using the Extended Kalman Filter on a Kobuki Turtlebot"}
           description={"Pose based EKF SLAM algorithm using the Extended Kalman Filter (EKF), incorporating view poses where environmental scans are integrated into the state vector. This algorithm was evaluated through both simulation and real-world testing."}
           // technologies={["NextJS", "React.JS", "Tailwind CSS", "API", "Responsive", "Github Actions"]}
           technologies={[]}
@@ -66,7 +53,7 @@ function Projects() {
 
         <ProjectCard
           name={"Kinematic Control System for a Mobile Manipulator, based on the Task-Priority Redundancy Resolution Algorithm"}
-          description={"a kinematic control system derived and implemented on a differential-drive robot (Kobuki Turtlebot 2), fitted with a 4 DOF manipulator (uFactory uArm Swift Pro). The system is predicated on the task-priority redundancy resolution algorithm. The implementation is done using ROS and the Stonefish simulator."}
+          description={"Kinematic control system derived and implemented on a differential-drive robot (Kobuki Turtlebot 2), fitted with a 4 DOF manipulator (uFactory uArm Swift Pro). The system is predicated on the task-priority redundancy resolution algorithm. The implementation is done using ROS and the Stonefish simulator."}
           // technologies={["NextJS", "React.JS", "Tailwind CSS", "API", "Responsive", "Github Actions"]}
           technologies={[]}
           
@@ -75,6 +62,20 @@ function Projects() {
           githubLink={"https://drive.google.com/file/d/1AjLQ44gIUkyi49Ndg9Sg08PuGjYsaxSl/view?usp=drive_link"}
           // directLink={"https://la-data-verte.vercel.app/"}
         />
+
+
+        <ProjectCard
+          name={"ROS2 Collision Avoidance Using Cross and Direct Echo of Bosch Ultrasonic Sensor Systems"}
+          description={"Testing and comparing of two ultrasonic sensors i.e. Bosch and Valeo for the obstacle avoidance task to include the safety braking feature (setting thresholds to slow down or stop the robot for collision avoidance with ROS2) which involved performing multiple field tests of different high grass."}
+          // technologies={["NextJS", "React.JS", "Tailwind CSS", "API", "Responsive", "Github Actions"]}
+          technologies={[]}
+          
+          imageSrc={"/images/paltech.png"}
+          imagePosition={"right"}
+          githubLink={"https://github.com/FatimaPaltech/Bosch_uss_ws"}
+          // directLink={"https://la-data-verte.vercel.app/"}
+        />
+
 
 
         <ProjectCard
