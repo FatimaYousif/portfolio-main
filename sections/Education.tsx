@@ -21,7 +21,7 @@ function Educations() {
                 
                 <Education post={"B.E. in Software Engineering"} dateStart={2018} dateEnd={2022} company={"Mehran University of Engineering and Technology"} >
                     <p>Agent Based Intelligent Systems, Data Science & Analytics, Simulation & Modeling, Cloud Computing, Statistics and Probablity</p>
-                    <p>CGPA 3.96 / 4.00 – Silver Medal Distinction & First Position</p>
+                    <p>CGPA 3.96 / 4.00 - Silver Medal Distinction & First Position</p>
                     
                 
                 </Education>
