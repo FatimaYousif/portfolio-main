@@ -12,19 +12,19 @@ function Experiences() {
                 </>
             </RevealContent>
             <div className="flex flex-col gap-12">
-            <Experience post={"Master Thesis/Intern"} dateStart={"03-03-2025"} dateEnd={"Present"} company={"Saxion Smart Mechatronics and Robotics Research Group"}>
+            <Experience post={"Master Thesis/Intern"} dateStart={"03/2025"} dateEnd={"05/2025"} company={"Saxion Smart Mechatronics and Robotics Research Group"}>
                     <p>
-                    Currently working on my Master's thesis under the KIEM, avoiding the invisible project. My research focuses on algorithms for multimodal target tracking and drone-based following, with three key objectives: Multi-modal (visual & thermal) target detection and tracking, drone control for target following, and integration of both into a unified software pipeline. 
+                    My research work on “Vision-based Tracking and Following of a Moving Target Using a UAV”, focused on challenges mainly in RGB modality for robust person detection and tracking, dealing with occlusions and identity switches, and real-time prediction in dynamic environments. The work integrates a hybrid system combining filtering-based tracking (Kalman Filter), vision-based deep learning models (YOLO), and adaptive control strategies. Overall, this research seeks to leverage situational-aware techniques to enable intelligent UAV deployment in security-critical scenarios detecting potential suspicious targets and track them in real-time with minimal response time.
                     </p>
                 </Experience>
                 
-                <Experience post={"ROSCon 2024 Diversity Scholar"} dateStart={"21-10-2024"} dateEnd={"23-10-2024"} company={"Open Robotics, Denmark"}>
+                <Experience post={"ROSCon 2024 Diversity Scholar"} dateStart={"10/2024"} dateEnd={"10/2024"} company={"Open Robotics, Denmark"}>
                     <p>
                     I secured a diversity scholarship to attend the ROSCon 2024 in Denmark where I had the opportunity to network with companies and ROS contributors globally. I specifically got extensive hands-on experience by attending the workshops named “Open source, open hardware hand-held mobile mapping system for large scale surveys” which gave exposure to essential processes such as LIDAR odometry and multi-session refinement for large-scale mapping and “ros2_control” where we learned about controller chaining, fallback controllers, and async controllers. 
                     </p>
                 </Experience>
                 
-                <Experience post={"Robotics Intern"} dateStart={"06-2024"} dateEnd={"08-2024"} company={"Paltech Robotics GmbH"}>
+                <Experience post={"Robotics Intern"} dateStart={"06/2024"} dateEnd={"08/2024"} company={"Paltech Robotics GmbH"}>
                     <p>
                     Worked on testing and comparing two new ultrasonic sensors i.e. Bosch and Valeo for the obstacle avoidance task to include the safety
 braking feature (setting thresholds to slow down or stop the robot with ROS2) which involved performing multiple field tests of

@@ -24,11 +24,11 @@ function About() {
                             <h2 className="text-3xl font-bold mb-6">About Me</h2>
                             <div className="flex flex-col gap-4" style={{ textAlign: 'justify' }}>
                                 <p>
-                                I am an Erasmus Mundus Joint Master's Scholar in Intelligent Field Robotic Systems at Universitat de Girona, Spain, and the University of Zagreb, Croatia. 
-                                My research interests span a diverse range of cutting-edge disciplines, including robotics, computer vision, and deep/machine learning. 
+                                I am an Erasmus Mundus Joint Masters Scholar in Intelligent Field Robotic Systems at Universitat de Girona, Spain, and the University of Zagreb, Croatia. 
+                                My research interests span a diverse range of cutting-edge disciplines, including robotics, computer vision, and machine/deep learning. 
                                 </p>
                                 <p>
-                                I am passionate about exploring the intersection of these fields to push the boundaries of technology and create innovative solutions that address complex real-world challenges.
+                                I am passionate about exploring the intersection of these fields to push the boundaries of technology and create innovative solutions that address complex real world challenges.
                                 
                                 </p>
                                 <p>

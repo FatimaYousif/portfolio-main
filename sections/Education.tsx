@@ -12,7 +12,7 @@ function Educations() {
                 </>
             </RevealContent>
             <div className="flex flex-col gap-12">
-                <Education post={"Erasmus Mundus Joint Master’s in Intelligent Field Robotic Systems"} dateStart={2023} company={"Universitat de Girona"}>
+                <Education post={"Erasmus Mundus Joint Masters in Intelligent Field Robotic Systems"} dateStart={2023} dateEnd={2025} company={"University of Girona & University of Zagreb"} >
                     <p>Semester I & II in Girona: Autonomous Systems, Machine Learning, Multiview Geometry, Probabilistic Robotics (Kalman Filtering),
                     and Robot Manipulation, Localization (SLAM), Planning, Perception (Computer Vision), and Intervention.</p>
                     <p>Semester III in Zagreb: Aerial Robotics, Multi-Robot Systems, Human-Robot Interaction, Robotic Sensing, Perception,
