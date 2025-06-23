@@ -26,7 +26,7 @@ function Experiences() {
                 
                 <Experience post={"Robotics Intern"} dateStart={"06/2024"} dateEnd={"08/2024"} company={"Paltech Robotics GmbH"}>
                     <p>
-                    Worked on testing and comparing two new ultrasonic sensors i.e. Bosch and Valeo for the obstacle avoidance task to include the safety
+                    Worked on testing and comparing two new ultrasonic sensors i.e. Bosch and Valeo for the collision avoidance task to include the safety
 braking feature (setting thresholds to slow down or stop the robot with ROS2) which involved performing multiple field tests of
 different high grass.</p>
                 </Experience>

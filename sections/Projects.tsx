@@ -16,7 +16,7 @@ function Projects() {
 
         <ProjectCard
           name={"Sim2Real: Controlling a Swarm of Crazyflies using Reynolds Rules and Consensus Protocol"}
-          description={"This project implements swarm control for Crazyflies UAVs using Reynolds Rules for flocking and a Consensus Protocol for coordinated movement. It integrates rendezvous and formation control in ROS2 and Gazebo, enabling agents to converge and maintain geometric formations. Tested in both simulation and real-world environments, the system demonstrates adaptability and scalability, with results highlighting the impact of communication topologies on swarm dynamics."}
+          description={"This project implements swarm control for Crazyflies UAVs using Reynolds Rules for flocking and a Consensus Protocol for coordinated movement. It integrates rendezvous and formation control in ROS2 and Gazebo, enabling agents to converge and maintain geometric formations. Tested in both simulation and real-world environments, the system demonstrates adaptability and scalability."}
           // technologies={["NextJS", "React.JS", "Tailwind CSS", "API", "Responsive", "Github Actions"]}
           technologies={[]}
           
@@ -29,7 +29,7 @@ function Projects() {
         
           <ProjectCard
           name={"Stereo Visual-Odometry (VO) on the KITTI Dataset"}
-          description={"This projects contains the implementation of Stereo VO pipeline in Python on the KITTI dataset. It processes stereo image data using SIFT, feature matching using BFMatcher, triangulation of points, to estimate the motion of a camera (w.r.t its starting position) in 3D space using the approach of minimizing the 3D to 2D reprojection error with PnP and RANSAC."}
+          description={" Implementation of Stereo VO pipeline in Python on the KITTI dataset. It processes stereo image data using SIFT, feature matching using BFMatcher, triangulation of points, to estimate the motion of a camera (w.r.t its starting position) in 3D space using the approach of minimizing the 3D to 2D reprojection error with PnP and RANSAC."}
           // technologies={["NextJS", "React.JS", "Tailwind CSS", "API", "Responsive", "Github Actions"]}
           technologies={[]}
           
@@ -80,7 +80,7 @@ function Projects() {
 
         <ProjectCard
           name={"Frontier Based Exploration Using Kobuki Turtlebot"}
-          description={"Frontier exploration project using an RGB-D camera mounted on a Kobuki Turtlebot. The project integrates advanced path planning techniques, combining the RRT* algorithm with Dubin’s path to map unknown environments. Additionally, a hybrid control system, which merges PID control with principles from the Pure Pursuit Controller used to optimize the robot’s velocity profiles. The implementation is done in Python within ROS framework, with simulation testing performed in the Stonefish simulator before real-world testing."}
+          description={"Using RGB-D camera mounted on a Kobuki Turtlebot, the project integrates advanced path planning techniques, combining the RRT* algorithm with Dubins path to map unknown environments with the primary objective of enabling the Turtlebot to autonomously explore unknown environments by identifying and navigating to frontiers. A hybrid control system, which merges PID control with principles from the Pure Pursuit Controller is used. Validated both in simulation and real world."}
           // technologies={["NextJS", "React.JS", "Tailwind CSS", "API", "Responsive", "Github Actions"]}
           technologies={[]}
           
@@ -92,8 +92,8 @@ function Projects() {
 
 
         <ProjectCard
-          name={"Monocular Visual Odometry for an Underwater Vehicle"}
-          description={"Monocular visual odometry (VO) for an Autonomous Underwater Vehicle (AUV) through an integrated approach combining extended Kalman filter (EKF) based navigation. The methodology employs SIFT feature detection and FLANN matching to process images from a ROSBag. A key contribution of this work is the incorporation of EKF to provide a refined estimation of the vehicle´s motion and trajectory."}
+          name={"Monocular Visual Odometry (M-VO) for an Autonomous Underwater Vehicle (AUV)"}
+          description={"M-VO for an AUV through an integrated approach combining extended Kalman filter (EKF) based navigation. The methodology employs SIFT feature detection and FLANN matching to (offline / post) process images from a ROSBag. A key contribution of this work is the incorporation of EKF to provide a refined estimation of the vehicle´s motion and trajectory."}
           // technologies={["NextJS", "React.JS", "Tailwind CSS", "API", "Responsive", "Github Actions"]}
           technologies={[]}
           
@@ -104,8 +104,9 @@ function Projects() {
         />
         
         <ProjectCard
-          name={"Pose Based SLAM using the Extended Kalman Filter on a Kobuki Turtlebot"}
-          description={"Pose based EKF SLAM algorithm using the Extended Kalman Filter (EKF), incorporating view poses where environmental scans are integrated into the state vector. This algorithm was evaluated through both simulation and real-world testing."}
+          name={"Pose Based SLAM using the Extended Kalman Filter (EKF) on a Kobuki Turtlebot"}
+          description={"Implemented a Pose-Based P- EKF SLAM system integrating IMU and 2D LiDAR data on a Kobuki Turtlebot. The algorithm maintains robot pose history for map building and localization, using ICP for scan matching and robust state updates. Validated in both simulated (Stonefish) and real-world environments, PEKFSLAM demonstrated superior accuracy and stability compared to conventional EKF-based SLAM approaches."}
+          // description={"Pose based EKF SLAM algorithm using the Extended Kalman Filter (EKF), incorporating view poses where environmental scans are integrated into the state vector. This algorithm was evaluated through both simulation and real-world testing."}
           // technologies={["NextJS", "React.JS", "Tailwind CSS", "API", "Responsive", "Github Actions"]}
           technologies={[]}
           
@@ -118,7 +119,8 @@ function Projects() {
 
         <ProjectCard
           name={"Kinematic Control System for a Mobile Manipulator, based on the Task-Priority Redundancy Resolution Algorithm"}
-          description={"Kinematic control system derived and implemented on a differential-drive robot (Kobuki Turtlebot 2), fitted with a 4 DOF manipulator (uFactory uArm Swift Pro). The system is predicated on the task-priority redundancy resolution algorithm. The implementation is done using ROS and the Stonefish simulator."}
+          description={"Designed and implemented a kinematic control system for a mobile manipulator (Kobuki Turtlebot 2 with a 4-DOF uArm Swift Pro), using a task-priority redundancy resolution algorithm. Developed in ROS and tested in the Stonefish simulator, the system performed complex pick-and-place tasks, including ArUco marker-based navigation."}
+          // description={"Kinematic control system derived and implemented on a differential-drive robot (Kobuki Turtlebot 2), fitted with a 4 DOF manipulator (uFactory uArm Swift Pro). The system is predicated on the task-priority redundancy resolution algorithm. The implementation is done using ROS and the Stonefish simulator."}
           // technologies={["NextJS", "React.JS", "Tailwind CSS", "API", "Responsive", "Github Actions"]}
           technologies={[]}
           
@@ -129,7 +131,7 @@ function Projects() {
         />
 
 
-        <ProjectCard
+        {/* <ProjectCard
           name={"ROS2 Collision Avoidance Using Cross and Direct Echo of Bosch Ultrasonic Sensor Systems"}
           description={"Testing and comparing of two ultrasonic sensors i.e. Bosch and Valeo for the obstacle avoidance task to include the safety braking feature (setting thresholds to slow down or stop the robot for collision avoidance with ROS2) which involved performing multiple field tests of different high grass."}
           // technologies={["NextJS", "React.JS", "Tailwind CSS", "API", "Responsive", "Github Actions"]}
@@ -139,7 +141,7 @@ function Projects() {
           imagePosition={"right"}
           githubLink={"https://github.com/FatimaPaltech/Bosch_uss_ws"}
           // directLink={"https://la-data-verte.vercel.app/"}
-        />
+        /> */}
 
 
 
@@ -156,7 +158,7 @@ function Projects() {
 
         <ProjectCard
           name={"SLAM - Differential Drive Mobile Robot "}
-          description={"Simultaneous Localization and Mapping(SLAM) algorithms for a differential drive mobile robot with python simulations and plotting."}
+          description={"Simultaneous Localization and Mapping (SLAM) algorithms for a differential drive mobile robot with python simulations and plotting."}
           // technologies={["NextJS", "React.JS", "Tailwind CSS", "API", "Responsive", "Github Actions"]}
           technologies={[]}
           
@@ -168,8 +170,9 @@ function Projects() {
 
         <ProjectCard
           name={"Behaviour trees for pick-place of objects "}
-          description={"Used the py_trees library followed by the results tested with turtlebot simulations in RViz with different complex environments having path planning and obstacle avoidance involved."}
+          // description={"Used the py_trees library followed by the results tested with turtlebot simulations in RViz with different complex environments having path planning and obstacle avoidance involved."}
           // technologies={["React.JS", "Tailwind CSS", "Responsive"]}
+          description={"Implemented behavior trees using the py_trees library and validated the approach through TurtleBot simulations in RViz, demonstrating path planning and obstacle avoidance across various complex environments."}
           technologies={[]}
           
           imageSrc={"/images/BT_stage3.gif"}
@@ -203,7 +206,7 @@ function Projects() {
         />
       <ProjectCard
           name={"Palletizing Application with UR3e Collaborative Robot (CoBot)"}
-          description={"Worked with the collaborative robot by developing a pick-and-place program for pallets to perform palletizing application by utilizing industrial UR3e Collaborative Robot."}
+          description={"Worked with the 6 DOF CoBot to develop a pick-and-place program with pallets to achieve simple palletizing application. Testing was conducted collaboratively in the laboratory."}
           // technologies={["Blog", "SEO", "Marketing", "Webdesign", "UX/UI", "WordPress", "Maintenance"]}
           technologies={[]}
           
@@ -225,7 +228,8 @@ function Projects() {
         
         <ProjectCard
           name={"Event Based Cameras (EBC) "}
-          description={"Worked on Event-based EBCs examining event data alongside ground truth using Davis using the frame-based approach for encoding raw event-based data into frames compatible with CNNs and RNNs and also applied Motion Compensation."}
+          description={"Analyzed EBC data by comparing it with ground truth using DAVIS. Employed a frame-based approach to convert raw event data into frames suitable for CNNs and RNNs, and applied motion compensation techniques."}
+          // description={"Worked with EBCs examining event data alongside ground truth using Davis, the frame-based approach for encoding raw event-based data into frames compatible with CNNs and RNNs, along with applying motion compensation."}
           // technologies={["Blog", "SEO", "Marketing", "Webdesign", "UX/UI", "WordPress", "Maintenance"]}
           technologies={[]}
           
@@ -238,7 +242,7 @@ function Projects() {
       
         <ProjectCard
           name={"Machine Vision Projects "}
-          description={"Contributed to projects such as Augmented Reality, Camera Calibration, Detecting Aruco markers, and Generating Fiducial Makers with computer vision, and image processing in C++. "}
+          description={"Worked on tasks such as Augmented Reality, Camera Calibration, Detecting Aruco markers, and Generating Fiducial Makers with computer vision, and image processing in CPP."}
           // technologies={["Blog", "SEO", "Marketing", "Webdesign", "UX/UI", "WordPress", "Maintenance"]}
           technologies={[]}
           
@@ -308,7 +312,8 @@ function Projects() {
 
         <ProjectCard
           name={"Image Captioning Deep Learning Model "}
-          description={"Developed this Final Year Project by using cutting-edge including Deep Learning, Computer Vision, and data mining technologies including Keras libraries with Flask in the backend and AWS."}
+          description={"In this undergraduate research project on image captioning, developed using an end-to-end deep learning system that combines computer vision and natural language processing to automatically generate descriptive captions for visual content."}
+          // description={"Developed this Final Year Project by using cutting-edge including Deep Learning, Computer Vision, and data mining technologies including Keras libraries with Flask in the backend and AWS."}
           // technologies={["Blog", "SEO", "Marketing", "Webdesign", "UX/UI", "WordPress", "Maintenance"]}
           technologies={[]}
           
