@@ -14,7 +14,7 @@ function Hero() {
             >
                 <p className="text-xl font-bold">Hello, I am </p>
                 <h1>Fatima Yousif</h1>
-                <p className="text-xl font-bold">MSc in Intelligent Field Robotic Systems (Currently, Spain) </p>
+                <p className="text-xl font-bold"> Robotics Researcher (Currently, Netherlands) </p>
             </motion.div>
             <motion.div
                 initial={{ opacity: 0, y: 10 }}

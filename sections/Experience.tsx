@@ -12,7 +12,14 @@ function Experiences() {
                 </>
             </RevealContent>
             <div className="flex flex-col gap-12">
-            <Experience post={"Master Thesis/Intern"} dateStart={"03/2025"} dateEnd={"05/2025"} company={"Saxion Smart Mechatronics and Robotics Research Group"}>
+
+               <Experience post={"Robotics Research Trainee"} dateStart={"09/2025"} dateEnd={"Present"} company={"Saxion University of Applied Sciences - Smart Mechatronics and Robotics Research Group"}>
+                    <p>
+                    Contributing to the development of an autonomous security drone system for target detection, tracking, and following by integrating gimbal-based target tracking, RGB and thermal camera perception, and a search-and-follow framework combining randomized exploration and path planning, real-time target tracking, and fire detection/localization.
+                    </p>
+                </Experience>
+            
+            <Experience post={"Master Thesis/Intern"} dateStart={"03/2025"} dateEnd={"05/2025"} company={"Saxion University of Applied Sciences - Smart Mechatronics and Robotics Research Group"}>
                     <p>
                     My research work on “Vision-based Tracking and Following of a Moving Target Using a UAV”, focused on challenges mainly in RGB modality for robust person detection and tracking, dealing with occlusions and identity switches, and real-time prediction in dynamic environments. The work integrates a hybrid system combining filtering-based tracking (Kalman Filter), vision-based deep learning models (YOLO), and adaptive control strategies. Overall, this research seeks to leverage situational-aware techniques to enable intelligent UAV deployment in security-critical scenarios detecting potential suspicious targets and track them in real-time with minimal response time.
                     </p>

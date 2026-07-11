@@ -26,9 +26,50 @@ function Projects() {
           // directLink={"https://la-data-verte.vercel.app/"}
         />
 
+
+           <ProjectCard
+          name={"Frontier Based Exploration Using Kobuki Turtlebot"}
+          description={"Using RGB-D camera mounted on a Kobuki Turtlebot, the project integrates advanced path planning techniques, combining the RRT* algorithm with Dubins path to map unknown environments with the primary objective of enabling the Turtlebot to autonomously explore unknown environments by identifying and navigating to frontiers. A hybrid control system, which merges PID control with principles from the Pure Pursuit Controller is used. Validated both in simulation and real world."}
+          // technologies={["NextJS", "React.JS", "Tailwind CSS", "API", "Responsive", "Github Actions"]}
+          technologies={[]}
+          
+          imageSrc={"/images/hol_hop.png"}
+          imagePosition={"left"}
+          githubLink={"https://drive.google.com/file/d/1NlvOoZAyUrwlc5uZDKQOGGCkYU58ea0j/view?usp=drive_link"}
+          // directLink={"https://la-data-verte.vercel.app/"}
+        />
+
+
+        
+        <ProjectCard
+          name={"Monocular Visual Odometry for an Autonomous Underwater Vehicle (AUV)"}
+          description={"M-VO for an AUV through an integrated approach combining extended Kalman filter (EKF) based navigation. The methodology employs SIFT feature detection and FLANN matching to (offline / post) process images from a ROSBag. A key contribution of this work is the incorporation of EKF to provide a refined estimation of the vehicle´s motion and trajectory."}
+          // technologies={["NextJS", "React.JS", "Tailwind CSS", "API", "Responsive", "Github Actions"]}
+          technologies={[]}
+          
+          imageSrc={"/images/hope.gif"}
+          imagePosition={"right"}
+          githubLink={"https://drive.google.com/file/d/1tw3GywQTFNa43fAUBPzNxo-abeP9HBu0/view?usp=drive_link"}
+          // directLink={"https://la-data-verte.vercel.app/"}
+        />
+
+
+          <ProjectCard
+          name={"Behaviour Trees for Pick and Place of Objects "}
+          // description={"Used the py_trees library followed by the results tested with turtlebot simulations in RViz with different complex environments having path planning and obstacle avoidance involved."}
+          // technologies={["React.JS", "Tailwind CSS", "Responsive"]}
+          description={"Implemented behavior trees using the py_trees library and validated the approach through TurtleBot simulations in RViz, demonstrating path planning and obstacle avoidance across various complex environments."}
+          technologies={[]}
+          
+          imageSrc={"/images/BT_stage3.gif"}
+          imagePosition={"right"}
+          githubLink={"https://github.com/FatimaYousif/pick_up_objects_task/"}
+        />
+
+
         
           <ProjectCard
-          name={"Stereo Visual-Odometry (VO) on the KITTI Dataset"}
+          name={"Stereo Visual Odometry on the KITTI Dataset"}
           description={" Implementation of Stereo VO pipeline in Python on the KITTI dataset. It processes stereo image data using SIFT, feature matching using BFMatcher, triangulation of points, to estimate the motion of a camera (w.r.t its starting position) in 3D space using the approach of minimizing the 3D to 2D reprojection error with PnP and RANSAC."}
           // technologies={["NextJS", "React.JS", "Tailwind CSS", "API", "Responsive", "Github Actions"]}
           technologies={[]}
@@ -40,7 +81,7 @@ function Projects() {
         />
 
         <ProjectCard
-          name={"Aerial Robotics"}
+          name={"Modeling and Control of Quadrotor UAVs"}
           description={"In this Aerial Robotics course, lab work included design and implementations of attitude control of a quadrotor, cascade control of a single quadrotor axis in MATLAB, cascade horizontal control of quadrotor in the Gazebo simulator and on the real DJI Tello quadrotor. "}
           // technologies={["NextJS", "React.JS", "Tailwind CSS", "API", "Responsive", "Github Actions"]}
           technologies={[]}
@@ -63,7 +104,7 @@ function Projects() {
           // directLink={"https://la-data-verte.vercel.app/"}
         />
 
-      <ProjectCard
+      {/* <ProjectCard
           name={"Human Detection and Tracking"}
           description={"This project focuses on human detection and tracking using the state-of-the-art YOLOv9 object detection model and the DeepSORT multi-object tracking algorithm. The methodology integrates Kalman filtering for motion prediction and deep learning-based appearance matching. The system is tested under various conditions, addressing challenges such as occlusions, identity switches, and tracking interruptions. "}
           // technologies={["NextJS", "React.JS", "Tailwind CSS", "API", "Responsive", "Github Actions"]}
@@ -73,35 +114,8 @@ function Projects() {
           imagePosition={"left"}
           githubLink={"https://drive.google.com/file/d/1InWfWw6GBx91oDSp3u7YZ171ZZodPn7l/view?usp=sharing"}
           // directLink={"https://la-data-verte.vercel.app/"}
-        />
+        /> */}
 
-
-
-
-        <ProjectCard
-          name={"Frontier Based Exploration Using Kobuki Turtlebot"}
-          description={"Using RGB-D camera mounted on a Kobuki Turtlebot, the project integrates advanced path planning techniques, combining the RRT* algorithm with Dubins path to map unknown environments with the primary objective of enabling the Turtlebot to autonomously explore unknown environments by identifying and navigating to frontiers. A hybrid control system, which merges PID control with principles from the Pure Pursuit Controller is used. Validated both in simulation and real world."}
-          // technologies={["NextJS", "React.JS", "Tailwind CSS", "API", "Responsive", "Github Actions"]}
-          technologies={[]}
-          
-          imageSrc={"/images/hol_hop.png"}
-          imagePosition={"left"}
-          githubLink={"https://drive.google.com/file/d/1NlvOoZAyUrwlc5uZDKQOGGCkYU58ea0j/view?usp=drive_link"}
-          // directLink={"https://la-data-verte.vercel.app/"}
-        />
-
-
-        <ProjectCard
-          name={"Monocular Visual Odometry (M-VO) for an Autonomous Underwater Vehicle (AUV)"}
-          description={"M-VO for an AUV through an integrated approach combining extended Kalman filter (EKF) based navigation. The methodology employs SIFT feature detection and FLANN matching to (offline / post) process images from a ROSBag. A key contribution of this work is the incorporation of EKF to provide a refined estimation of the vehicle´s motion and trajectory."}
-          // technologies={["NextJS", "React.JS", "Tailwind CSS", "API", "Responsive", "Github Actions"]}
-          technologies={[]}
-          
-          imageSrc={"/images/hope.gif"}
-          imagePosition={"right"}
-          githubLink={"https://drive.google.com/file/d/1tw3GywQTFNa43fAUBPzNxo-abeP9HBu0/view?usp=drive_link"}
-          // directLink={"https://la-data-verte.vercel.app/"}
-        />
         
         <ProjectCard
           name={"Pose Based SLAM using the Extended Kalman Filter (EKF) on a Kobuki Turtlebot"}
@@ -168,17 +182,7 @@ function Projects() {
           // directLink={"https://la-data-verte.vercel.app/"}
         />
 
-        <ProjectCard
-          name={"Behaviour trees for pick-place of objects "}
-          // description={"Used the py_trees library followed by the results tested with turtlebot simulations in RViz with different complex environments having path planning and obstacle avoidance involved."}
-          // technologies={["React.JS", "Tailwind CSS", "Responsive"]}
-          description={"Implemented behavior trees using the py_trees library and validated the approach through TurtleBot simulations in RViz, demonstrating path planning and obstacle avoidance across various complex environments."}
-          technologies={[]}
-          
-          imageSrc={"/images/BT_stage3.gif"}
-          imagePosition={"right"}
-          githubLink={"https://github.com/FatimaYousif/pick_up_objects_task/"}
-        />
+    
         
         {/* <ProjectCard
           name={"Mobile Manipulator Task-Priority Kinematic Control "}

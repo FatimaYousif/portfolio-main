@@ -5,6 +5,7 @@ import Experiences from "@/sections/Experience";
 import Hero from "@/sections/Hero";
 import MarqueeSection from "@/sections/MarqueeSection";
 import Projects from "@/sections/Projects";
+import Photos from "@/sections/Photos";
 
 export default function Home() {
   return (
@@ -30,6 +31,9 @@ export default function Home() {
         </section>
         <section>
           <Projects />
+        </section>
+        <section>
+          <Photos />
         </section>
         <section>
           <Contact />
