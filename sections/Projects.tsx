@@ -8,7 +8,7 @@ function Projects() {
       <RevealContent>
         <>
           <SectionBadge sectionName={""} />
-          <h2 className="text-3xl font-extrabold text-center mb-6 md:mb-10">My Projects</h2>
+          <h2 className="text-3xl font-extrabold text-center mb-6 md:mb-10">Projects</h2>
         </>
       </RevealContent>
       <div className="flex flex-col gap-12 lg:gap-20">

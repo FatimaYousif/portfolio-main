@@ -1,9 +1,24 @@
+
+import RevealContent from "@/components/ReavealContent"
+import SectionBadge from "@/components/SectionBadge"
+
+
 export default function Photos() {
   return (
-    <section id="field-tests" className="py-20">
-      <h2 className="text-3xl md:text-5xl font-extrabold font-gilroy text-center mb-8">
+     <>
+      <RevealContent>
+        <>
+          <SectionBadge sectionName={""} />
+          <h2 className="text-3xl font-extrabold text-center mb-6 md:mb-10">Highlights</h2>
+        </>
+      </RevealContent>
+
+    {/* <section id="field-tests" className="py-20"> */}
+      {/* <h2 className="text-3xl md:text-5xl font-extrabold font-gilroy text-center mb-8">
         Highlights
-      </h2>
+      </h2> */}
+      
+        {/* <h2 className="text-3xl font-extrabold text-center mb-6 md:mb-10">Highlights</h2> */}
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
         <img src="images/gallery/drone2.jpeg" alt="Drone Test 2" />
@@ -29,7 +44,8 @@ export default function Photos() {
 
         {/* <img src="images/gallery/nestfly.jpeg" alt="NestFly Event" /> */}
       </div>
-    </section>
+    {/* </section> */}
+    </>
   );
 }
 
