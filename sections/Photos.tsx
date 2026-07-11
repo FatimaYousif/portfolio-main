@@ -24,7 +24,7 @@ export default function Photos() {
         <img src="images/gallery/girlsday.jpg" alt="Girls Day Event" />
         <img src="images/gallery/nwo2.jpg" alt="NWO Event 1" />
         <img src="images/gallery/nwo.jpeg" alt="NWO Event 2" />
-        <img src="images/gallery/drone.png" alt="Drone Test" />
+        <img src="images/gallery/drone4.jpeg" alt="Drone Test" />
 
 
         {/* <img src="images/gallery/nestfly.jpeg" alt="NestFly Event" /> */}

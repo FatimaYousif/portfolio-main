@@ -13,16 +13,32 @@ function Projects() {
       </RevealContent>
       <div className="flex flex-col gap-12 lg:gap-20">
 
+        <ProjectCard
+          name={"Vision-Based Tracking and Following of a Moving Target Using an Unmanned Aerial Vehicle"}
+          description={
+          "Developed a UAV perception and control pipeline integrating RGB vision with autonomous drone control. Implemented multi-object tracking using YOLO-based detectors and state-of-the-art trackers (BoT-SORT and ByteTrack), incorporating IoU-based association and Kalman filtering to improve tracking under occlusions. The system was developed in ROS 2 and evaluated in both simulation and real-world experiments on a Holybro X500 UAV with a Pixhawk 4 flight controller, enabling real-time onboard AI inference."  
+          }
+          
+          
+          // technologies={["NextJS", "React.JS", "Tailwind CSS", "API", "Responsive", "Github Actions"]}
+          technologies={[]}
+          
+          imageSrc={"/images/project.gif"}
+          imagePosition={"right"}
+          directLink={"https://drive.google.com/file/d/15_ZbHtW5GLerMhS5jtIts86WxeXCNYkw/view?usp=drive_link"}
+          // directLink={"https://la-data-verte.vercel.app/"}
+        />
+
 
         <ProjectCard
-          name={"Sim2Real: Controlling a Swarm of Crazyflies using Reynolds Rules and Consensus Protocol"}
+          name={"Decentralized UAV Swarm Control using Reynolds Flocking and Consensus Protocol"}
           description={"This project implements swarm control for Crazyflies UAVs using Reynolds Rules for flocking and a Consensus Protocol for coordinated movement. It integrates rendezvous and formation control in ROS2 and Gazebo, enabling agents to converge and maintain geometric formations. Tested in both simulation and real-world environments, the system demonstrates adaptability and scalability."}
           // technologies={["NextJS", "React.JS", "Tailwind CSS", "API", "Responsive", "Github Actions"]}
           technologies={[]}
           
           imageSrc={"/images/mrs.gif"}
           imagePosition={"right"}
-          githubLink={"https://drive.google.com/file/d/1Z6rUHu_9CV6AMe3nXfcD9oOo7O9E0dog/view?usp=sharing"}
+          directLink={"https://drive.google.com/file/d/1gidcwXDXMhnHQ3EM0YPyVH-mxWnaW1zA/view"}
           // directLink={"https://la-data-verte.vercel.app/"}
         />
 
@@ -34,8 +50,8 @@ function Projects() {
           technologies={[]}
           
           imageSrc={"/images/hol_hop.png"}
-          imagePosition={"left"}
-          githubLink={"https://drive.google.com/file/d/1NlvOoZAyUrwlc5uZDKQOGGCkYU58ea0j/view?usp=drive_link"}
+          imagePosition={"right"}
+          directLink={"https://drive.google.com/file/d/1NlvOoZAyUrwlc5uZDKQOGGCkYU58ea0j/view?usp=drive_link"}
           // directLink={"https://la-data-verte.vercel.app/"}
         />
 
@@ -49,7 +65,7 @@ function Projects() {
           
           imageSrc={"/images/hope.gif"}
           imagePosition={"right"}
-          githubLink={"https://drive.google.com/file/d/1tw3GywQTFNa43fAUBPzNxo-abeP9HBu0/view?usp=drive_link"}
+          directLink={"https://drive.google.com/file/d/1tw3GywQTFNa43fAUBPzNxo-abeP9HBu0/view?usp=drive_link"}
           // directLink={"https://la-data-verte.vercel.app/"}
         />
 
@@ -87,7 +103,7 @@ function Projects() {
           technologies={[]}
           
           imageSrc={"/images/ar.gif"}
-          imagePosition={"left"}
+          imagePosition={"right"}
           githubLink={"https://github.com/FatimaYousif/AerialRobotics"}
           // directLink={"https://la-data-verte.vercel.app/"}
         />
@@ -125,8 +141,8 @@ function Projects() {
           technologies={[]}
           
           imageSrc={"/images/hol_hop.png"}
-          imagePosition={"left"}
-          githubLink={"https://drive.google.com/file/d/19PtEXhWmLMEDCZ_8OUZyceBBa_9b1kHx/view?usp=drive_link"}
+          imagePosition={"right"}
+          directLink={"https://drive.google.com/file/d/19PtEXhWmLMEDCZ_8OUZyceBBa_9b1kHx/view?usp=drive_link"}
           // directLink={"https://la-data-verte.vercel.app/"}
         />
 
@@ -140,7 +156,7 @@ function Projects() {
           
           imageSrc={"/images/hoi.png"}
           imagePosition={"right"}
-          githubLink={"https://drive.google.com/file/d/1AjLQ44gIUkyi49Ndg9Sg08PuGjYsaxSl/view?usp=drive_link"}
+          directLink={"https://drive.google.com/file/d/1AjLQ44gIUkyi49Ndg9Sg08PuGjYsaxSl/view?usp=drive_link"}
           // directLink={"https://la-data-verte.vercel.app/"}
         />
 
@@ -177,7 +193,7 @@ function Projects() {
           technologies={[]}
           
           imageSrc={"/images/SLAM.gif"}
-          imagePosition={"left"}
+          imagePosition={"right"}
           githubLink={"https://github.com/FatimaYousif/Feature_EKF_SLAM"}
           // directLink={"https://la-data-verte.vercel.app/"}
         />
@@ -215,7 +231,7 @@ function Projects() {
           technologies={[]}
           
           imageSrc={"/images/cobot.png"}
-          imagePosition={"left"}
+          imagePosition={"right"}
           // directLink={"https://kodiz.fr"}
           githubLink={"https://github.com/FatimaYousif/Robot_Manipulation/tree/main/The%20UR3e%20Collaborative%20Robot"}
         />
@@ -238,7 +254,7 @@ function Projects() {
           technologies={[]}
           
           imageSrc={"/images/EBC.png"}
-          imagePosition={"left"}
+          imagePosition={"right"}
           // directLink={"https://kodiz.fr"}
           githubLink={"https://github.com/FatimaYousif/Event_based_Cameras"}
         
@@ -322,7 +338,7 @@ function Projects() {
           technologies={[]}
           
           imageSrc={"/images/imgcap.gif"}
-          imagePosition={"left"}
+          imagePosition={"right"}
           // directLink={"https://kodiz.fr"}
           githubLink={"https://github.com/FatimaYousif/Image-Captioning-Deep-Learning-Model"}
         
