@@ -74,7 +74,7 @@ function ProjectCard({
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >
-                                    <Icons name="link" size={30} />
+                                    <Icons name="github" size={30} />
                                 </a>
                             )}
                         </div>

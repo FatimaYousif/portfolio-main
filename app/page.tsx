@@ -14,9 +14,9 @@ export default function Home() {
         <section className="h-[70vh] mb-0">
           <Hero />
         </section>
-        <section>
+        {/* <section>
           <MarqueeSection />
-        </section>
+        </section> */}
         <section>
           <About />
         </section>
