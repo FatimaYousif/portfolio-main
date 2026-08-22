@@ -29,6 +29,18 @@ function Projects() {
           // directLink={"https://la-data-verte.vercel.app/"}
         />
 
+        <ProjectCard
+        name={"LiDAR-Camera Sensor Fusion - KITTI 3D Object Detection"}
+        description={"Fuses YOLO-based 2D object detection with raw LiDAR point clouds to recover 3D depth for detected objects. Implements the full KITTI calibration chain (LiDAR → Camera → IMU → Geodetic), projecting point clouds onto camera images with RANSAC ground-plane removal and associating detections with LiDAR depth via nearest-neighbor matching. Outputs real-world GPS-located detections."}
+        // technologies={["Python", "OpenCV", "YOLO", "NumPy", "pymap3d", "Folium"]}
+        technologies={[]}
+        imageSrc={"/images/fusion.png"}
+        imagePosition={"right"}
+        // directLink={""}
+          githubLink={"https://github.com/FatimaYousif/CameraLidar_fusion_3DObjectDetection"}
+      />
+
+
 
         <ProjectCard
           name={"Decentralized UAV Swarm Control using Reynolds Flocking and Consensus Protocol"}
