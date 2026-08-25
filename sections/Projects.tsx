@@ -351,8 +351,8 @@ function Projects() {
           
           imageSrc={"/images/imgcap.gif"}
           imagePosition={"right"}
-          // directLink={"https://kodiz.fr"}
-          githubLink={"https://github.com/FatimaYousif/Image-Captioning-Deep-Learning-Model"}
+          directLink={"https://drive.google.com/file/d/1xL6GDLfT-wirNT5IENKNfWQAzqt80B2Q/view?usp=sharing"}
+          // githubLink={"https://github.com/FatimaYousif/Image-Captioning-Deep-Learning-Model"}
         
         />    
 
