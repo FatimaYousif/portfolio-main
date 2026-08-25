@@ -15,7 +15,8 @@ function Experiences() {
 
                <Experience post={"Robotics Research Trainee"} dateStart={"09/2025"} dateEnd={"Present"} company={"Saxion University of Applied Sciences - Smart Mechatronics and Robotics Research Group"}>
                     <p>
-                    Contributing to the development of an autonomous security drone system for target detection, tracking, and following by integrating gimbal-based target tracking, RGB and thermal camera perception, and a search-and-follow framework combining randomized exploration and path planning, real-time target tracking, and fire detection/localization.
+                    {/* Contributing to the development of an autonomous security drone system for target detection, tracking, and following by integrating gimbal-based target tracking, RGB and thermal camera perception, and a search-and-follow framework combining randomized exploration and path planning, real-time target tracking, and fire detection/localization. */}
+                    Contributing to the development of an autonomous security drone for target detection, tracking, and following. Working with RGB and thermal cameras, gimbal-based tracking, path planning, and fire detection/localization, while integrating sensors, testing system performance, and troubleshooting field deployments. Collaborating with research and industry partners on experiments, system validation, technical documentation, and supervising student projects in autonomous systems.
                     </p>
                 </Experience>
             
