@@ -344,7 +344,9 @@ function Projects() {
 
         <ProjectCard
           name={"Image Captioning Deep Learning Model "}
-          description={"In this undergraduate research project on image captioning, developed using an end-to-end deep learning system that combines computer vision and natural language processing to automatically generate descriptive captions for visual content."}
+          // description={"In this undergraduate research project on image captioning, developed using an end-to-end deep learning system that combines computer vision and natural language processing to automatically generate descriptive captions for visual content."}
+          
+          description={"In this undergraduate research project, developed an attention-based CNN-RNN image captioning system that converts visual content into natural-language descriptions. The model uses InceptionV3 as the encoder and GRU as the decoder, trained on datasets including MS COCO, Flickr8k, and Flickr30k."}
           // description={"Developed this Final Year Project by using cutting-edge including Deep Learning, Computer Vision, and data mining technologies including Keras libraries with Flask in the backend and AWS."}
           // technologies={["Blog", "SEO", "Marketing", "Webdesign", "UX/UI", "WordPress", "Maintenance"]}
           technologies={[]}
