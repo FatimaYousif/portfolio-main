@@ -35,7 +35,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="fr" className={`${gilroy.variable} ${openSans.variable}`}>
+    <html lang="en" className={`${gilroy.variable} ${openSans.variable}`}>
       <body>
         <Header />
         {children}
