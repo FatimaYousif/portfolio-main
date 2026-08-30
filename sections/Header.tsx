@@ -14,8 +14,8 @@ function Header() {
       transition={{ duration: 0.5 }}
       className='flex items-center mt-[20px]'
     >
-      <div className='items-center hidden gap-4 md:flex md:w-3/12'><AlertDot />Available</div>
-      <div className='flex w-9/12 md:w-8/12 md:justify-center '>
+      {/* <div className='items-center hidden gap-4 md:flex md:w-3/12'><AlertDot />Available</div> */}
+      <div className='flex w-9/12 md:w-8/12 md:justify-left '>
         {/* <BrandLogo /> */}
         {/* <Image
                             alt={`logo`}

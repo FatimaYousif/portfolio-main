@@ -32,7 +32,7 @@ function ProjectCard({
             <>
                 <div className="w-full md:w-6/12">
                     <Image
-                        alt={`capture d'écran du projet intitulé ${name}`}
+                        alt={`Screenshot of the project titled ${name}`}
                         height={800}
                         width={800}
                         src={imageSrc}
