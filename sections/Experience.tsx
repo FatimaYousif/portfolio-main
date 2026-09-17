@@ -13,10 +13,12 @@ function Experiences() {
             </RevealContent>
             <div className="flex flex-col gap-12">
 
-               <Experience post={"Robotics Research Trainee"} dateStart={"09/2025"} dateEnd={"Present"} company={"Saxion University of Applied Sciences - Smart Mechatronics and Robotics Research Group"}>
+               <Experience post={"Robotics Research Trainee"} dateStart={"09/2025"} dateEnd={"08/2026"} company={"Saxion University of Applied Sciences - Smart Mechatronics and Robotics Research Group"}>
                     <p>
                     {/* Contributing to the development of an autonomous security drone system for target detection, tracking, and following by integrating gimbal-based target tracking, RGB and thermal camera perception, and a search-and-follow framework combining randomized exploration and path planning, real-time target tracking, and fire detection/localization. */}
-                    Contributing to the development of an autonomous security drone for target detection, tracking, and following. Working with RGB and thermal cameras, gimbal-based tracking, path planning, and fire detection/localization, while integrating sensors, testing system performance, and troubleshooting field deployments. Collaborating with research and industry partners on experiments, system validation, technical documentation, and supervising student projects in autonomous systems.
+                    {/* Contributing to the development of an autonomous security drone for target detection, tracking, and following. Working with RGB and thermal cameras, gimbal-based tracking, path planning, and fire detection/localization, while integrating sensors, testing system performance, and troubleshooting field deployments. Collaborating with research and industry partners on experiments, system validation, technical documentation, and supervising student projects in autonomous systems. */}
+                    I continued developing and evaluating unmanned aerial vehicle (UAV)-based anomaly tracking on a physical quadrotor platform (Holybro X500 airframe and Pixhawk4 flight controller) equipped with an edge AI system. My work also included researching perception methods using RGB and thermal sensing modalities, and deploying a search-and-follow framework based on hierarchical state-machine control that integrates randomized exploration, real-time target tracking, and fire detection/localization for situational awareness. Working alongside industrial partners on this project taught me how to communicate across disciplines, integrate contributions from multiple work packages, and solve practical challenges that arise during field testing.
+                    
                     </p>
                 </Experience>
             
