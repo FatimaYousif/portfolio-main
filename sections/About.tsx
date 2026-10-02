@@ -36,7 +36,8 @@ function About() {
                                 </p> */}
 
                                 <p>
-                                With an interdisciplinary background, having bachelor's in software engineering and Erasmus Mundus Joint Masters in intelligent field robotic systems, I have worked hands-on with aerial, and ground robots, focusing on sensing and perception, and autonomous navigation. My passion lies in developing autonomous systems capable of adapting to complex and dynamic environments using the intersection of mentioned research lines, and emphasizing practical Edge AI deployment.
+                                {/* With an interdisciplinary background, having bachelor's in software engineering and Erasmus Mundus Joint Masters in intelligent field robotic systems, I have worked hands-on with aerial, and ground robots, focusing on sensing and perception, and autonomous navigation. My passion lies in developing autonomous systems capable of adapting to complex and dynamic environments using the intersection of mentioned research lines, and emphasizing practical Edge AI deployment. */}
+                                With an interdisciplinary background, having Erasmus Mundus master’s in intelligent field robotic systems with a bachelor’s in software engineering, I have worked hands-on with ground, and aerial robots, focusing on motion planning, multi-robot systems, control, and sensing and perception. My passion lies in developing autonomous systems capable of adapting to complex and dynamic environments using the intersection of mentioned research lines.
                                 </p>
                                 Hobbies: I love learning about and flying FPV drones, playing Sudoku and basketball.
                                 {/* <p>I am eager to collaborate with other experts and enthusiasts in the area of robotics and AI, to share knowledge, ideas, and contribute.</p> */}

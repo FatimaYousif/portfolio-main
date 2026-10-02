@@ -33,8 +33,8 @@ type Project = {
 const projectsData: Project[] = [
   {
     name: "Vision-Based Tracking and Following of a Moving Target Using an Unmanned Aerial Vehicle",
-    description:
-      "Developed a UAV perception and control pipeline integrating RGB vision with autonomous drone control. Implemented multi-object tracking using YOLO-based detectors and state-of-the-art trackers (BoT-SORT and ByteTrack), incorporating IoU-based association and Kalman filtering to improve tracking under occlusions. The system was developed in ROS 2 and evaluated in both simulation and real-world experiments on a Holybro X500 UAV with a Pixhawk 4 flight controller, enabling real-time onboard AI inference.",
+    description:"Developed an end-to-end perception-control pipeline that lets a quadrotor detect, track and follow a person in real time. A YOLO-based detector finds people in each frame, and the multi-object trackers BoT-SORT and ByteTrack link detections into persistent tracks using IoU-based association, and a Kalman filter predicts the target’s motion when detections drop out, preserving identity through occlusions. The target’s image position drives an image-based visual servoing controller that generates velocity commands to keep following it. The complete system was integrated and validated through real-world flight experiments.",
+      // "Developed a UAV perception and control pipeline integrating RGB vision with autonomous drone control. Implemented multi-object tracking using YOLO-based detectors and state-of-the-art trackers (BoT-SORT and ByteTrack), incorporating IoU-based association and Kalman filtering to improve tracking under occlusions. The system was developed in ROS 2 and evaluated in both simulation and real-world experiments on a Holybro X500 UAV with a Pixhawk 4 flight controller, enabling real-time onboard AI inference.",
     categories: ["Robotics", "Perception"],
     technologies: [],
     imageSrc: "/images/project.gif",
@@ -43,9 +43,10 @@ const projectsData: Project[] = [
   },
   {
     name: "Decentralized UAV Swarm Control using Reynolds Flocking and Consensus Protocol",
-    description:
-      "This project implements swarm control for Crazyflies UAVs using Reynolds Rules for flocking and a Consensus Protocol for coordinated movement. It integrates rendezvous and formation control in ROS2 and Gazebo, enabling agents to converge and maintain geometric formations. Tested in both simulation and real-world environments, the system demonstrates adaptability and scalability.",
-    categories: ["Multi-Robot Systems", "Planning", "Robotics"],
+    description: 
+      // "This project implements swarm control for Crazyflies UAVs using Reynolds Rules for flocking and a Consensus Protocol for coordinated movement. It integrates rendezvous and formation control in ROS2 and Gazebo, enabling agents to converge and maintain geometric formations. Tested in both simulation and real-world environments, the system demonstrates adaptability and scalability.",
+    "Designed and implemented consensus-based formation control for a swarm of nano unmanned aerial vehicles (UAVs), using Laplacian-matrix dynamics and pinning control to drive agents into target geometric configurations (line, triangle, rectangle, pentagon, hexagon) with a designated leader agent. Analyzed convergence under four communication topologies and a perception-based switching topology; validated in ROS2/Gazebo simulation and on real hardware with up to 4 UAVs, demonstrating scalability from 3 to 6 agents.",
+      categories: ["Multi-Robot Systems", "Planning", "Robotics"],
     technologies: [],
     imageSrc: "/images/mrs.gif",
     imagePosition: "right",
@@ -53,8 +54,8 @@ const projectsData: Project[] = [
   },
   {
     name: "Frontier Based Exploration Using Kobuki Turtlebot",
-    description:
-      "Using RGB-D camera mounted on a Kobuki Turtlebot, the project integrates advanced path planning techniques, combining the RRT* algorithm with Dubins path to map unknown environments with the primary objective of enabling the Turtlebot to autonomously explore unknown environments by identifying and navigating to frontiers. A hybrid control system, which merges PID control with principles from the Pure Pursuit Controller is used. Validated both in simulation and real world.",
+    description: "Implemented a frontier-based autonomous exploration system on a Kobuki Turtlebot, combining RRT* (with cost-based parent selection and rewiring) and Dubins path steering for kinematically-feasible motion planning under differential constraints. Designed an entropy-based information-gain criterion for frontier target selection and a hybrid PID/pure-pursuit controller for trajectory tracking. Validated in simulation (Stonefish) and on real hardware with an RGB-D camera.",
+      // "Using RGB-D camera mounted on a Kobuki Turtlebot, the project integrates advanced path planning techniques, combining the RRT* algorithm with Dubins path to map unknown environments with the primary objective of enabling the Turtlebot to autonomously explore unknown environments by identifying and navigating to frontiers. A hybrid control system, which merges PID control with principles from the Pure Pursuit Controller is used. Validated both in simulation and real world.",
     categories: ["Planning", "Robotics", "Perception"],
     technologies: [],
     imageSrc: "/images/hol_hop.png",
@@ -64,8 +65,8 @@ const projectsData: Project[] = [
 
     {
     name: "Goal-Driven Deep RL Policy for Robot Navigation",
-    description:
-      "Deep reinforcement learning for mobile robot navigation in the ROS2 Gazebo. A Twin Delayed Deep Deterministic Policy Gradient (TD3) network trains a robot to navigate to a random goal point in a simulated environment while avoiding obstacles.",
+    description: "Implemented a TD3 actor-critic agent in PyTorch for goal-reaching with obstacle avoidance in continuous action space, trained and validated in a ROS2 and Gazebo simulation. The robot learns by trial and error from LiDAR sensing, goal direction and a reward signal, and TD3’s twin critics and delayed policy updates keep training stable and limit overestimation bias. Trained on randomized start positions, goals and obstacle layouts to generalize to new situations.",
+      // "Deep reinforcement learning for mobile robot navigation in the ROS2 Gazebo. A Twin Delayed Deep Deterministic Policy Gradient (TD3) network trains a robot to navigate to a random goal point in a simulated environment while avoiding obstacles.",
     categories: ["Reinforcement Learning", "Planning", "Robotics"],
     technologies: [],
     imageSrc: "/images/drl.png",

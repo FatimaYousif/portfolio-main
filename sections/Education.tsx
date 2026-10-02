@@ -13,15 +13,15 @@ function Educations() {
             </RevealContent>
             <div className="flex flex-col gap-12">
                 <Education post={"Erasmus Mundus Joint Masters in Intelligent Field Robotic Systems"} dateStart={2023} dateEnd={2025} company={"University of Girona & University of Zagreb"} >
-                    <p>Semester I & II in Girona: Autonomous Systems, Hands-on Perception, Planning, Localization (SLAM), Manipulation, Machine Learning, Multiview Geometry, Probabilistic Robotics (Kalman Filtering)
+                    <p>Semester I & II in Girona: Autonomous Systems, Hands-on Planning, Perception, Localization, Manipulation, Machine Learning, Multiview Geometry, Probabilistic Robotics
                     </p>
-                    <p>Semester III in Zagreb: Aerial Robotics, Multi-Robot Systems, Robotic Sensing, Perception, & Actuation, Human-Robot Interaction,
-                Deep Learning, and Ethics & Technology.</p>
+                    <p>Semester III in Zagreb: Multi-Robot Systems,  Aerial Robotics, Robotic Sensing, Perception, & Actuation, Human-Robot Interaction,
+                Deep Learning</p>
                 </Education>
                 
                 <Education post={"Bachelor of Engineering in Software Engineering"} dateStart={2018} dateEnd={2022} company={"Mehran University of Engineering and Technology"} >
-                    <p>Agent Based Intelligent Systems, Data Science & Analytics, Simulation & Modeling, Cloud Computing, Statistics and Probablity</p>
-                    <p>CGPA 3.96 / 4.00 - Silver Medal Distinction & First Position</p>
+                    <p>Data Structures & Algorithms, Discrete Structures, Operations Research, Agent-Based Intelligent Systems, Statistics and Probablity</p>
+                    <p>GPA 3.96 / 4.00 - Silver Medal Distinction (First Position) </p>
                     
                 
                 </Education>
