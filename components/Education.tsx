@@ -2,8 +2,8 @@ import RevealContent from "@/components/ReavealContent"
 
 interface EducationProps {
   post: string,
-  dateStart: number,
-  dateEnd?: number,
+  dateStart: string,
+  dateEnd?: string,
   company: string,
   children?: React.ReactNode,
 }
