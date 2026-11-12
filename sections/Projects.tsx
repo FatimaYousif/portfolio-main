@@ -200,25 +200,26 @@ const projectsData: Project[] = [
   },
 
   {
-    name: "Event Based Cameras (EBC) ",
+    name: "Event-Based Vision & Motion Compensation: ",
     description:
-      "Analyzed EBC data by comparing it with ground truth using DAVIS. Employed a frame-based approach to convert raw event data into frames suitable for CNNs and RNNs, and applied motion compensation techniques.",
-    categories: ["Perception"],
+      // "Analyzed EBC data by comparing it with ground truth using DAVIS. Employed a frame-based approach to convert raw event data into frames suitable for CNNs and RNNs, and applied motion compensation techniques.",
+    "Processed asynchronous Event-Based Camera data from the MVSEC DAVIS346B dataset, implementing event-to-image encoding and frame-based discretization for CNN/RNN- compatible representations, and applying pyramidal patch-based motion compensation with BFGS optimization for optical-flow estimation. Evaluated compensated flow against ground-truth flow using Average Endpoint Error",
+      categories: ["Perception"],
     technologies: [],
     imageSrc: "/images/EBC.png",
     imagePosition: "right",
     githubLink: "https://github.com/FatimaYousif/Event_based_Cameras",
   },
-  {
-    name: "Machine Vision Projects ",
-    description:
-      "Worked on tasks such as Augmented Reality, Camera Calibration, Detecting Aruco markers, and Generating Fiducial Makers with computer vision, and image processing in CPP.",
-    categories: ["Perception"],
-    technologies: [],
-    imageSrc: "/images/mv.png",
-    imagePosition: "right",
-    githubLink: "https://github.com/FatimaYousif/Machine_Vision_Projects",
-  },
+  // {
+  //   name: "Machine Vision Projects ",
+  //   description:
+  //     "Worked on tasks such as Augmented Reality, Camera Calibration, Detecting Aruco markers, and Generating Fiducial Makers with computer vision, and image processing in CPP.",
+  //   categories: ["Perception"],
+  //   technologies: [],
+  //   imageSrc: "/images/mv.png",
+  //   imagePosition: "right",
+  //   githubLink: "https://github.com/FatimaYousif/Machine_Vision_Projects",
+  // },
   {
     name: "Reinforcement Learning-Based Path Planning for Autonomous Robots in Static Environments ",
     description:
@@ -251,6 +252,8 @@ function Projects() {
   }, [activeCategory])
 
   return (
+     <section id="projects" className="scroll-mt-24">
+
     <>
       <RevealContent>
         <>
@@ -294,6 +297,7 @@ function Projects() {
         ))}
       </div>
     </>
+    </section>
   )
 }
 

@@ -4,6 +4,8 @@ import RevealContent from "@/components/ReavealContent"
 
 function Educations() {
     return (
+        
+         <section id="education" className="scroll-mt-24">
         <>
             <RevealContent>
                 <>
@@ -12,16 +14,23 @@ function Educations() {
                 </>
             </RevealContent>
             <div className="flex flex-col gap-12">
-                <Education post={"Erasmus Mundus Joint Masters in Intelligent Field Robotic Systems"} dateStart={2023} dateEnd={2025} company={"University of Girona & University of Zagreb"} >
-                    <p>Semester I & II in Girona: Autonomous Systems, Hands-on Planning, Perception, Localization, Manipulation, Machine Learning, Multiview Geometry, Probabilistic Robotics
+                <Education post={"Erasmus Mundus Masters in Intelligent Field Robotic Systems"} dateStart={"September 2023"} dateEnd={"July 2025"} company={"Universitat de Girona, Spain & University of Zagreb, Croatia"} >
+                    {/* <p>Semester I & II in Girona: Autonomous Systems, Hands-on Planning, Perception, Localization, Manipulation, Machine Learning, Multiview Geometry, Probabilistic Robotics
                     </p>
                     <p>Semester III in Zagreb: Multi-Robot Systems,  Aerial Robotics, Robotic Sensing, Perception, & Actuation, Human-Robot Interaction,
-                Deep Learning</p>
+                Deep Learning</p> */}
+                <p><strong>Courses:</strong> Hands-on Perception, Hands-on Planning, Autonomous Systems, Multiview Geometry, Machine Learning, Deep Learning, Probabilistic Robotics, Aerial Robotics, Multi-Robots Systems, Hands-on Localization, Robot Sensing, Perception and Actuation, Hands-on Robotic Manipulation, Seminar 1, Human-Robot Interaction</p> 
+                <p><strong>Thesis Title:</strong>Vision-Based Tracking and Following of a Moving Target using a Drone.    <br />
+                <strong>Thesis grade:</strong> 8.70 / 10</p>
+                <p><strong>Overall grade:</strong> 8.45 / 10 (Spanish scale)</p>
+                
+                
                 </Education>
                 
-                <Education post={"Bachelor of Engineering in Software Engineering"} dateStart={2018} dateEnd={2022} company={"Mehran University of Engineering and Technology"} >
-                    <p>Data Structures & Algorithms, Discrete Structures, Operations Research, Agent-Based Intelligent Systems, Statistics and Probablity</p>
-                    <p>GPA 3.96 / 4.00 - Silver Medal Distinction (First Position) </p>
+                <Education post={"Bachelor of Engineering in Software Engineering"} dateStart={"October 2018"} dateEnd={"November 2022"} company={"Mehran University of Engineering and Technology, Pakistan"} >
+                    <p><strong>Relevant Courses: </strong>Data Structures & Algorithms, Discrete Structures, Operations Research, Agent-Based Intelligent Systems, Statistics and Probablity</p>
+                    
+                    <p><strong>GPA:</strong> 3.96 / 4.00 - Silver Medal Distinction (First Position) </p>
                     
                 
                 </Education>
@@ -33,6 +42,8 @@ function Educations() {
                 </Experience> */}
             </div>
         </>
+        </section>
+        
     )
 }
 

@@ -5,6 +5,8 @@ import SectionBadge from "@/components/SectionBadge"
 
 export default function Photos() {
   return (
+      <section id="highlights" className="scroll-mt-24">
+       
      <>
       <RevealContent>
         <>
@@ -52,6 +54,7 @@ export default function Photos() {
       </div>
     {/* </section> */}
     </>
+    </section>
   );
 }
 

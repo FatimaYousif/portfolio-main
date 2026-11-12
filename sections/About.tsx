@@ -7,6 +7,8 @@ import Image from "next/image"
 
 function About() {
     return (
+
+         <section id="about" className="scroll-mt-24">
         <motion.div
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
@@ -17,8 +19,8 @@ function About() {
                     <SectionBadge sectionName="" />
                     <div className="flex flex-col md:flex-row md:gap-6">
                         <div className="w-12/12 md:w-5/12 mb-6 flex justify-center md:self-start">
-                            <Image src={"/images/gallery/header.jpeg"} className="self-center dark:hidden" alt="" height={600} width={450} />
-                            <Image src={"/images/gallery/header.jpeg"} className="self-center hidden dark:block" alt="" height={600} width={450} />
+                            <Image src={"/images/profile1.jpg"} className="self-center dark:hidden" alt="" height={600} width={450} />
+                            <Image src={"/images/profile1.jpg"} className="self-center hidden dark:block" alt="" height={600} width={450} />
                         </div>
                         <div className="w-12/12 md:w-7/12 xl:w-5/12">
                             <h2 className="text-3xl font-bold mb-6">About Me</h2>
@@ -47,6 +49,7 @@ function About() {
                 </>
             </RevealContent>
         </motion.div>
+        </section>
     )
 }
 

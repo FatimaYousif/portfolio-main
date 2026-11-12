@@ -6,6 +6,9 @@ import Hero from "@/sections/Hero";
 import MarqueeSection from "@/sections/MarqueeSection";
 import Projects from "@/sections/Projects";
 import Photos from "@/sections/Photos";
+import Awards from "@/sections/Awards"
+import Publication from "@/sections/Publication"
+
 
 export default function Home() {
   return (
@@ -25,10 +28,19 @@ export default function Home() {
           <Education/>
         </section>
         
-
         <section>
           <Experiences />
         </section>
+        
+
+        <section>
+          <Publication />
+        </section>
+        
+        <section>
+          <Awards />
+        </section>
+        
         <section>
           <Projects />
         </section>
