@@ -20,7 +20,7 @@ function Educations() {
                     <p>Semester III in Zagreb: Multi-Robot Systems,  Aerial Robotics, Robotic Sensing, Perception, & Actuation, Human-Robot Interaction,
                 Deep Learning</p> */}
                 <p><strong>Courses:</strong> Hands-on Perception, Hands-on Planning, Autonomous Systems, Multiview Geometry, Machine Learning, Deep Learning, Probabilistic Robotics, Aerial Robotics, Multi-Robots Systems, Hands-on Localization, Robot Sensing, Perception and Actuation, Hands-on Robotic Manipulation, Seminar 1, Human-Robot Interaction</p> 
-                <p><strong>Thesis Title:</strong>Vision-Based Tracking and Following of a Moving Target using a Drone.    <br />
+                <p><strong>Thesis Title:</strong>Vision-Based Tracking and Following of a Moving Target using an Unmanned Aerial Vehicle.    <br />
                 </p>
                 {/* <strong>Thesis grade:</strong> 8.70 / 10</p> */}
                 {/* <p><strong>Grade:</strong> 8.45 / 10 (Spanish scale) */}
