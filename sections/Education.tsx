@@ -21,8 +21,9 @@ function Educations() {
                 Deep Learning</p> */}
                 <p><strong>Courses:</strong> Hands-on Perception, Hands-on Planning, Autonomous Systems, Multiview Geometry, Machine Learning, Deep Learning, Probabilistic Robotics, Aerial Robotics, Multi-Robots Systems, Hands-on Localization, Robot Sensing, Perception and Actuation, Hands-on Robotic Manipulation, Seminar 1, Human-Robot Interaction</p> 
                 <p><strong>Thesis Title:</strong>Vision-Based Tracking and Following of a Moving Target using a Drone.    <br />
-                <strong>Thesis grade:</strong> 8.70 / 10</p>
-                <p><strong>Overall grade:</strong> 8.45 / 10 (Spanish scale)</p>
+                </p>
+                {/* <strong>Thesis grade:</strong> 8.70 / 10</p> */}
+                {/* <p><strong>Grade:</strong> 8.45 / 10 (Spanish scale) */}
                 
                 
                 </Education>
@@ -30,7 +31,7 @@ function Educations() {
                 <Education post={"Bachelor of Engineering in Software Engineering"} dateStart={"October 2018"} dateEnd={"November 2022"} company={"Mehran University of Engineering and Technology, Pakistan"} >
                     <p><strong>Relevant Courses: </strong>Data Structures & Algorithms, Discrete Structures, Operations Research, Agent-Based Intelligent Systems, Statistics and Probablity</p>
                     
-                    <p><strong>GPA:</strong> 3.96 / 4.00 - Silver Medal Distinction (First Position) </p>
+                    {/* <p><strong>GPA:</strong> 3.96 / 4.00 - Silver Medal Distinction (First Position) </p> */}
                     
                 
                 </Education>

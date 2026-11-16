@@ -23,9 +23,10 @@ export default function Photos() {
         {/* <h2 className="text-3xl font-extrabold text-center mb-6 md:mb-10">Highlights</h2> */}
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-        <img src="images/gallery/drone2_2.jpg" alt="Drone Test 2" />
+        {/* <img src="images/gallery/drone2_2.jpg" alt="Drone Test 2" /> */}
 
-        <img src="images/gallery/nestfly_2.JPG" alt="Field Test 1" />
+        <img src="images/gallery/nestfly3.JPG" alt="Robotics Event" />
+        
         <img src="images/gallery/ctt3.jpg" alt="Field Test 3" />
 
         {/* <img src="images/gallery/robor2.jpg" alt="Field Test 2" /> */}
@@ -34,9 +35,9 @@ export default function Photos() {
         
         
         <img src="images/gallery/roscon.jpeg" alt="ROS Conference" />
-        <img src="images/gallery/paltech.jpeg" alt="Paltech Event" />
 
-        <img src="images/gallery/nestfly3.JPG" alt="Robotics Event" />
+        {/* <img src="images/gallery/nestfly3.JPG" alt="Robotics Event" /> */}
+        
         
         <img src="images/gallery/ut.png" alt="University of Twente" />
 
@@ -45,7 +46,10 @@ export default function Photos() {
         
         
         {/* <img src="images/gallery/nwo2.jpg" alt="NWO Event 1" /> */}
-        <img src="images/gallery/nwo.jpeg" alt="NWO Event 2" />
+        {/* <img src="images/gallery/nwo.jpeg" alt="NWO Event 2" /> */}
+        <img src="images/gallery/nestfly_2.JPG" alt="Field Test 1" />
+
+        <img src="images/gallery/paltech.jpeg" alt="Paltech Event" />
 
         <img src="images/gallery/drone_roscon.jpeg" alt="Drone Roscon" />
 

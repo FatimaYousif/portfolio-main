@@ -10,7 +10,7 @@ function Experiences() {
             <RevealContent>
                 <>
                     <SectionBadge sectionName={""} />
-                    <h2 className="text-3xl font-extrabold text-center mb-6 md:mb-10">Experiences</h2>
+                    <h2 className="text-3xl font-extrabold text-center mb-6 md:mb-10">Experience</h2>
                 </>
             </RevealContent>
             <div className="flex flex-col gap-12">
