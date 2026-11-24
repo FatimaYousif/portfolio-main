@@ -12,10 +12,10 @@ const CATEGORIES = [
   "Planning",
   "Perception",
   "Control",
+  "Multi-Robot Systems",
   "Reinforcement Learning",
   "Localization",
   "Manipulation",
-  "Multi-Robot Systems",
 ] as const
 
 type Category = (typeof CATEGORIES)[number]
@@ -34,8 +34,9 @@ type Project = {
 const projectsData: Project[] = [
   {
     name: "Vision-Based Tracking and Following of a Moving Target Using an Unmanned Aerial Vehicle",
-    description:"Developed an end-to-end perception-control pipeline that lets a quadrotor detect, track and follow a person in real time. A YOLO-based detector finds people in each frame, and the multi-object trackers BoT-SORT and ByteTrack link detections into persistent tracks using IoU-based association, and a Kalman filter predicts the target’s motion when detections drop out, preserving identity through occlusions. The target’s image position drives an image-based visual servoing controller that generates velocity commands to keep following it. The complete system was integrated and validated through real-world flight experiments.",
+    // description:"Developed an end-to-end perception-control pipeline that lets a quadrotor detect, track and follow a person in real time. A YOLO-based detector finds people in each frame, and the multi-object trackers BoT-SORT and ByteTrack link detections into persistent tracks using IoU-based association, and a Kalman filter predicts the target’s motion when detections drop out, preserving identity through occlusions. The target’s image position drives an image-based visual servoing controller that generates velocity commands to keep following it. The complete system was integrated and validated through real-world flight experiments.",
       // "Developed a UAV perception and control pipeline integrating RGB vision with autonomous drone control. Implemented multi-object tracking using YOLO-based detectors and state-of-the-art trackers (BoT-SORT and ByteTrack), incorporating IoU-based association and Kalman filtering to improve tracking under occlusions. The system was developed in ROS 2 and evaluated in both simulation and real-world experiments on a Holybro X500 UAV with a Pixhawk 4 flight controller, enabling real-time onboard AI inference.",
+    description: "Built an end-to-end system that lets a UAV detect, track, and follow a person among bystanders using a single RGB camera. Combined YOLO object detector with BoT-SORT/ByteTrack multi-object tracking and a Kalman filter, and designed a three-mode redetection algorithm (ID change, target missing, target lost) that recovers the target after occlusions. A 3D flight controller keeps the target centered and at a set desireddistance. The complete system was evaluated on tracking accuracy, computational performance, and control stability.",
     categories: ["Perception", "Control"],
     technologies: [],
     imageSrc: "/images/mt.gif",
@@ -53,6 +54,28 @@ const projectsData: Project[] = [
     imagePosition: "right",
     directLink: "https://drive.google.com/file/d/1gidcwXDXMhnHQ3EM0YPyVH-mxWnaW1zA/view",
   },
+
+  {
+  name: "Multi-Robot Task Allocation using Hungarian Assignment and A* Path Planning",
+  description:
+    "Implemented a multi-robot task allocation and planning stack for an n-robot fleet, including a from-scratch Kuhn-Munkres (Hungarian) algorithm for optimal cost-based assignment and an A* planner with a costmap-aware cost function and Manhattan-distance heuristic, exposed as a ROS2 service for on-demand path queries. Designed a multi-factor assignment cost combining robot-task capability matching, task priority, service time, and travel distance, with support for dynamic task reallocation as robots become available.",
+  categories: ["Multi-Robot Systems", "Planning"],
+  technologies: [],
+  imageSrc: "/images/mrs_taskalloc.png",
+  imagePosition: "right",
+  directLink: "https://github.com/FatimaYousif/Multi-Robot-Task-Allocation",
+},
+
+  {
+  name: "Nonlinear MPC with Safety Constraints (CasADi) for Navigation",
+  description:
+    "Implemented a receding-horizon nonlinear model predictive controller for a differential-drive robot, formulated as a nonlinear program in CasADi and solved with IPOPT in Python. The robot is modelled with discretised unicycle kinematics. The cost trades off goal-tracking error against control effort, velocity limits enter as input bounds, and non-convex circular constraints keep the predicted trajectory outside the obstacles. Closed-loop goal reaching and obstacle avoidance were validated in simulation.",
+  categories: ["Control", "Planning"],
+  technologies: [],
+  imageSrc: "/images/mpc.gif",
+  imagePosition: "right",
+  directLink: "https://github.com/FatimaYousif/mpc_casadi/tree/main",
+},
   {
     name: "Frontier Based Exploration Using Kobuki Turtlebot",
     description: "Implemented a frontier-based autonomous exploration system on a Kobuki Turtlebot, combining RRT* (with cost-based parent selection and rewiring) and Dubins path steering for kinematically-feasible motion planning under differential constraints. Designed an entropy-based information-gain criterion for frontier target selection and a hybrid PID/pure-pursuit controller for trajectory tracking. Validated in simulation (Stonefish) and on real hardware with an RGB-D camera.",
@@ -63,7 +86,6 @@ const projectsData: Project[] = [
     imagePosition: "right",
     directLink: "https://drive.google.com/file/d/1NlvOoZAyUrwlc5uZDKQOGGCkYU58ea0j/view?usp=drive_link",
   },
-
     {
     name: "Goal-Driven Deep RL Policy for Robot Navigation",
     description: "Implemented a TD3 actor-critic agent in PyTorch for goal-reaching with obstacle avoidance in continuous action space, trained and validated in a ROS2 and Gazebo simulation. The robot learns by trial and error from LiDAR sensing, goal direction and a reward signal, and TD3’s twin critics and delayed policy updates keep training stable and limit overestimation bias. Trained on randomized start positions, goals and obstacle layouts to generalize to new situations.",
